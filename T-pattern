@@ -1,0 +1,9 @@
+def R_pattern():
+	for x in range(6):
+		for y in range(5):
+			if x==0 or y==2:
+				print("$",end=" ")
+			else:
+				print(" ",end=" ")
+		print()
+R_pattern()

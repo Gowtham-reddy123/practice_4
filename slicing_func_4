@@ -1,0 +1,7 @@
+def slice(a):
+	b=a
+	c=b[-5:-2:1]
+	d=b[-6::5]
+	return c,d
+b=slice("Django")
+print(b)

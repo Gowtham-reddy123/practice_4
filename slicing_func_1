@@ -1,0 +1,6 @@
+def slice(a):
+	b=a
+	c=b[-4:-1:1]
+	return c
+b=slice("python")
+print(b)

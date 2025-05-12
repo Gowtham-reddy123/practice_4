@@ -1,0 +1,6 @@
+def slice(a):
+	b=a
+	c=b[-8:-5:1]
+	return c
+b=slice("computer")
+print(b)
